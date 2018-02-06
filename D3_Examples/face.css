@@ -1,0 +1,21 @@
+#mySVG{
+	display: block;
+    background-color: black;
+    margin: 10px auto;
+}
+svg .mainCircle{
+    fill: black;
+    stroke: red;
+    stroke-width: 2px;
+}
+svg .myPaths{
+    fill: red;
+    stroke: red;
+    stroke-width: 4px;
+}
+svg .eyeCircles{
+    fill: red;
+}
+svg .eyeCircles:hover{
+    fill: black;
+}

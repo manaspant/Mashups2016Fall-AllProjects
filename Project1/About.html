@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Yodaslate</title> 
+		<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="yodastyle.css" />
+	</head>
+	<body>
+	<h1>Yoda Slate</h1>
+	<p>
+		<div id = "yoda-speak">A long time ago in a galaxy far, far away.... </div>
+	</p>
+
+
+	<p>
+	<div id="text">
+	<br><u>
+		
+		         About this project
+	</u>
+	<br>
+	<br>
+	<br>
+	This is a very simple fun based project. It is based on Yoda's way of speaking from the popular Star Wars movie series. I really find it funny the way Yoda speaks and thus wanted to make a webpage where a user could input whatever he/she wants Yoda to speak. Apart from that I also wanted to make funny jokes involving Yoda and so I came up with a way to make stupid jokes about him.
+	<br>
+	<br>
+	I have basically used to APIs for the webpage. The first API is the one that converts the user input into a way of how Yoda would have said it. For this I just had to get an API key and link it to my javascript file using ajax. The user has to enter a sentence into the input box and the API will convert it to a Yoda sentence after the button has been pressed. Upon the pressing of the button, a random Yoda joke will be genrated and printed on the screen (usually before the translation has been displayed.) For the generation of the jokes, I have used an API that generates Chuck Norris jokes. The only thing that I am doing here is that I am replacing the name Chuck Norris by the word Yoda. Thus, instead of a joke about Chuck Norris the user will get a joke about Yoda as the name had been replaced. 
+	<br>
+	<br>
+	There is one main challenge that I faced while making the project. This one was regarding the replacement of the word 'Chuck Norris' with the word 'Yoda'. A lot of times the replacement would not happen the way that I wanted it to. For example, sometimes it would replace the word as Yoda Norris or if Chuck Norris was written in a way that I had not predicted, then it would not replace the word. Thus, dealing with this was the biggest issue that I faced while doing this work. I created a list of all possible Chuck Norris names and put them in a for loop. But still, sometimes there would be a new name and the replacement would not happen properly. 
+	I am still trying to find a way out of this problem.
+	<br>
+	<br>
+	I received valuable feedback in various aspects. There was feedback about the design and the color scheme of the webpage. The input box and the YodaSlate button did not go well with the theme of the theme of the rest of the webpage. So, I was given suggestions to change the design and color of the input box as well as that of the button that the user presses to get the translation. 
+	<br>
+	<br>
+	
+	</div>
+	</p>
+	
+		<script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>		
+		<script src="yodascript.js"></script>
+	</body>
+</html>

@@ -1,0 +1,14 @@
+body{
+	text-align: center;
+	font-family: Times;
+}
+
+.flickr-times-container{
+
+	float: left;
+	width: 25%;
+}
+
+img{
+	width: 200px;
+}
